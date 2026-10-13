@@ -6,7 +6,25 @@
     "url": "http://amoscloud.com/",
     "desc": "",
     "tags": [],
-    "path": ["参考"],
+    "path": [
+      "参考"
+    ],
     "updated": "2026-10-13"
+  },
+  {
+    "id": "todo-domain",
+    "title": "待办：注册自定义域名 tucawang.com",
+    "type": "笔记",
+    "url": "",
+    "desc": "用户自行在阿里云或 Cloudflare 注册，约每年六七十块；注册完告诉 Atlas 配置 DNS。",
+    "tags": [
+      "待办",
+      "域名"
+    ],
+    "path": [
+      "待办"
+    ],
+    "updated": "2026-10-13",
+    "body": "## 待办：注册自定义域名 tucawang.com\n\n1. 用户自行在阿里云或 Cloudflare 注册 tucawang.com（约每年六七十块，用户自己付款）。\n2. 注册完成后告诉 Atlas，由 Atlas 配置 DNS：\n   - `www` 用 CNAME 指向 `tucawang.github.io`\n   - 根域名用 A 记录指向 `185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`\n3. 在 GitHub 仓库 tucawang/portal 的 Pages 设置里添加自定义域名 `tucawang.com`。\n"
   }
 ]
