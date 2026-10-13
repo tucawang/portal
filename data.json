@@ -1,17 +1,5 @@
 [
   {
-    "id": "amoscloud",
-    "title": "amoscloud.com",
-    "type": "链接",
-    "url": "http://amoscloud.com/",
-    "desc": "",
-    "tags": [],
-    "path": [
-      "参考"
-    ],
-    "updated": "2026-10-13"
-  },
-  {
     "id": "todo-domain",
     "title": "待办：注册自定义域名 tucawang.com",
     "type": "笔记",
