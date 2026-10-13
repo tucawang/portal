@@ -7,7 +7,7 @@ function iconFor(e) {
   const initial = highlight([...e.title][0] || '?');
   if (!e.url) return `<span class="icon" aria-hidden="true">📝</span>`;
   const host = new URL(e.url).hostname;
-  return `<span class="icon" aria-hidden="true"><img src="https://icons.duckduckgo.com/ip3/${host}.ico" alt="" loading="lazy"
+  return `<span class="icon" aria-hidden="true"><img src="https://www.google.com/s2/favicons?domain=${host}&sz=64" alt="" loading="lazy"
     onerror="this.replaceWith(document.createTextNode('${initial}'))"></span>`;
 }
 
